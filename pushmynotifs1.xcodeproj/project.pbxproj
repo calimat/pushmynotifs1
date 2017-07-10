@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1328FAE9C7C02F1FEAAB25 /* Pods_pushmynotifs1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623ACFB8400739EFECA2AD39 /* Pods_pushmynotifs1.framework */; };
 		F6A5369A1F132B6000F2F248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A536991F132B6000F2F248 /* AppDelegate.swift */; };
 		F6A5369C1F132B6000F2F248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A5369B1F132B6000F2F248 /* ViewController.swift */; };
 		F6A5369F1F132B6000F2F248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A5369D1F132B6000F2F248 /* Main.storyboard */; };
 		F6A536A11F132B6000F2F248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A536A01F132B6000F2F248 /* Assets.xcassets */; };
 		F6A536A41F132B6000F2F248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A536A21F132B6000F2F248 /* LaunchScreen.storyboard */; };
+		F6A536AC1F132BFD00F2F248 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6A536AB1F132BFD00F2F248 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		580212A635C3EE9644728C2C /* Pods-pushmynotifs1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushmynotifs1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pushmynotifs1/Pods-pushmynotifs1.debug.xcconfig"; sourceTree = "<group>"; };
+		623ACFB8400739EFECA2AD39 /* Pods_pushmynotifs1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pushmynotifs1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA6B657370BEDB5F69A4F96 /* Pods-pushmynotifs1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushmynotifs1.release.xcconfig"; path = "Pods/Target Support Files/Pods-pushmynotifs1/Pods-pushmynotifs1.release.xcconfig"; sourceTree = "<group>"; };
 		F6A536961F132B6000F2F248 /* pushmynotifs1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pushmynotifs1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A536991F132B6000F2F248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6A5369B1F132B6000F2F248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		F6A536A01F132B6000F2F248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6A536A31F132B6000F2F248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6A536A51F132B6000F2F248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A536AB1F132BFD00F2F248 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1328FAE9C7C02F1FEAAB25 /* Pods_pushmynotifs1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14187B62DBFD2A00F2835333 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				623ACFB8400739EFECA2AD39 /* Pods_pushmynotifs1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE1F02797DE5DD5B063267DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				580212A635C3EE9644728C2C /* Pods-pushmynotifs1.debug.xcconfig */,
+				BCA6B657370BEDB5F69A4F96 /* Pods-pushmynotifs1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F6A5368D1F132B6000F2F248 = {
 			isa = PBXGroup;
 			children = (
 				F6A536981F132B6000F2F248 /* pushmynotifs1 */,
 				F6A536971F132B6000F2F248 /* Products */,
+				AE1F02797DE5DD5B063267DA /* Pods */,
+				14187B62DBFD2A00F2835333 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +80,7 @@
 		F6A536981F132B6000F2F248 /* pushmynotifs1 */ = {
 			isa = PBXGroup;
 			children = (
+				F6A536AB1F132BFD00F2F248 /* GoogleService-Info.plist */,
 				F6A536991F132B6000F2F248 /* AppDelegate.swift */,
 				F6A5369B1F132B6000F2F248 /* ViewController.swift */,
 				F6A5369D1F132B6000F2F248 /* Main.storyboard */,
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6A536A81F132B6000F2F248 /* Build configuration list for PBXNativeTarget "pushmynotifs1" */;
 			buildPhases = (
+				C4E1FDF13FC361F009AC8340 /* [CP] Check Pods Manifest.lock */,
 				F6A536921F132B6000F2F248 /* Sources */,
 				F6A536931F132B6000F2F248 /* Frameworks */,
 				F6A536941F132B6000F2F248 /* Resources */,
+				422EFC9A45F35AC54D1ADC6E /* [CP] Embed Pods Frameworks */,
+				AAA13524651E917A4D49BFCB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,12 +155,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6A536A41F132B6000F2F248 /* LaunchScreen.storyboard in Resources */,
+				F6A536AC1F132BFD00F2F248 /* GoogleService-Info.plist in Resources */,
 				F6A536A11F132B6000F2F248 /* Assets.xcassets in Resources */,
 				F6A5369F1F132B6000F2F248 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		422EFC9A45F35AC54D1ADC6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pushmynotifs1/Pods-pushmynotifs1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAA13524651E917A4D49BFCB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pushmynotifs1/Pods-pushmynotifs1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E1FDF13FC361F009AC8340 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F6A536921F132B6000F2F248 /* Sources */ = {
@@ -261,6 +340,7 @@
 		};
 		F6A536A91F132B6000F2F248 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 580212A635C3EE9644728C2C /* Pods-pushmynotifs1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9J527Q9823;
@@ -274,6 +354,7 @@
 		};
 		F6A536AA1F132B6000F2F248 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA6B657370BEDB5F69A4F96 /* Pods-pushmynotifs1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9J527Q9823;
