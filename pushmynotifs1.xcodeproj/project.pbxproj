@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					F6A536951F132B6000F2F248 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = AMLYNCKP6M;
+						DevelopmentTeam = 9J527Q9823;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -263,7 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AMLYNCKP6M;
+				DEVELOPMENT_TEAM = 9J527Q9823;
 				INFOPLIST_FILE = pushmynotifs1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oshyn.pushmynotifs1;
@@ -276,7 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = AMLYNCKP6M;
+				DEVELOPMENT_TEAM = 9J527Q9823;
 				INFOPLIST_FILE = pushmynotifs1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oshyn.pushmynotifs1;
